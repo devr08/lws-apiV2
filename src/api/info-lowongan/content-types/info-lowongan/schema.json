@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "info_lowongans",
+  "info": {
+    "singularName": "info-lowongan",
+    "pluralName": "info-lowongans",
+    "displayName": "Info Lowongan"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "judul": {
+      "type": "string",
+      "required": true
+    },
+    "konten": {
+      "type": "blocks",
+      "required": true
+    }
+  }
+}
